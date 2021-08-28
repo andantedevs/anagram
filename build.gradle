@@ -1,0 +1,16 @@
+plugins {
+    id "java"
+}
+
+group "me.andante.anagram"
+version "1.0.0"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    String guava_version = "30.1.1"
+    implementation "com.google.guava:guava:${guava_version}-jre"
+    // compile "com.google.guava:guava:${guava_version}-jre"
+}
